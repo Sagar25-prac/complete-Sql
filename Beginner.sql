@@ -1,5 +1,3 @@
--- This file contains code for DDL and DML
-
 -- DDL Commands
 /* Create a new table called persons
 with columns: id, person_name , birth_date,phone */
