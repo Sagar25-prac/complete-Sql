@@ -74,4 +74,17 @@ update sales.Customers
 set score = 0
 where score is null
 
+-- Delete rows from customers table
+-- remove all customers with id greater than 5
+
+delete from sales.Customers
+where customerid>5
+
+--remove all the data from persons
+-- we are using truncate to delate all the data the table which is faster method
+
+truncate table persons
+
+
+
 
